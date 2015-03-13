@@ -10,10 +10,10 @@ Gem::Specification.new do |spec|
   spec.email         = ['bpedro@brunopedro.com']
   spec.summary       = 'RSpec matchers that checks if a path exists.'
   spec.description   = 'An RSpec matcher that checks if a given path exists.'
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/bpedro/be_an_existing_path-matcher'
   spec.license       = 'MIT'
 
-  spec.files         = `git ls-files -z`.split('\x0')
+  spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(/^bin\//) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(/^(test|spec|features)\//)
   spec.require_paths = ['lib']
